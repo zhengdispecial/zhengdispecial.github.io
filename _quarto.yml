@@ -1,39 +1,21 @@
 project:
   type: website
-  output-dir: docs
 
 website:
-  title: "郑迪的个人主页"
-  
-  description: "资源利用与植物保护专业学生 | 数据分析爱好者"
-  favicon: "images/favicon.ico"
+  title: "֣�ϵĸ�����ҳ"
   navbar:
     left:
       - href: index.qmd
-        text: 🏠 首页
-      - href: about.qmd
-        text: 👤 关于我
-      - href: skills.qmd
-        text: 🛠️ 技能
-      - href: hobbies.qmd
-        text: 🎯 兴趣爱好
-      - href: learning.qmd
-        text: 📚 Quarto学习
-    right:
-      - icon: github
-        href: https://github.com/zhengdispecial
-        aria-label: GitHub
-  page-footer:
-    center: |
-      © 2026 郑迪 · 资源利用与植物保护 · 学号：2025303120148
+        text: Home
+      - about.qmd
 
 format:
   html:
     theme:
-      light: flatly
-      dark: darkly
+      - cosmo
+      - brand
     css: styles.css
     toc: true
-    toc-title: "目录"
-    smooth-scroll: true
-    highlight-style: github
+
+
+
